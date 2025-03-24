@@ -1,4 +1,4 @@
-# Anish Sai Konda's Portfolio
+# Anish Sai.K.T's Portfolio
 
 ## Introduction
 
