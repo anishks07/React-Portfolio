@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <div className="container header-container">
-        <a href="#home" className="logo">Anish Sai Konda</a>
+        <a href="#home" className="logo"><img src="/Images/logo.png" alt="Logo" height="45" style={{filter: 'brightness(0) invert(1)'}} /></a>
         <nav>
           <a href="#about">About</a>
           <a href="#experience">Experience</a>

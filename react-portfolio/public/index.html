@@ -2,7 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/Images/logo.png" id="favicon" />
+    <script>
+      // Apply white filter to favicon
+      window.addEventListener('load', function() {
+        const favicon = document.getElementById('favicon');
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        const img = new Image();
+        
+        img.onload = function() {
+          canvas.width = img.width;
+          canvas.height = img.height;
+          
+          // Draw image and apply white filter
+          ctx.drawImage(img, 0, 0);
+          ctx.globalCompositeOperation = 'source-in';
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          
+          // Update favicon
+          favicon.href = canvas.toDataURL('image/png');
+        };
+        
+        img.src = favicon.href;
+      });
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#1e293b" />
     <meta

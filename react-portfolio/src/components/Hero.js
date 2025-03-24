@@ -62,7 +62,7 @@ function Hero() {
             margin: '0 auto 2.5rem',
             textAlign: 'center' 
           }}>
-            Welcome to my portfolio! I'm a passionate AI and Web Developer specializing in creating innovative and engaging digital experiences.
+            Welcome to my portfolio! 
           </p>
           
           <div className="hero-buttons" style={{ 
