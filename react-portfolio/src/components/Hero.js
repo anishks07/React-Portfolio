@@ -40,7 +40,7 @@ function Hero() {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
           }}>
-            Anish Sai Konda
+            Anish Sai.K.T
           </h1>
           
           <h2 style={{ 

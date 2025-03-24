@@ -1,8 +1,8 @@
-# Anish Sai Konda's Portfolio
+# Anish Sai.K.T's Portfolio
 
 ## Introduction
 
-Welcome to my portfolio! I am Anish Sai Konda, an AI & Web Developer. This portfolio showcases my projects, skills, and experience in web development and artificial intelligence.
+Welcome to my portfolio! I am Anish Sai.K.T, an AI & Web Developer. This portfolio showcases my projects, skills, and experience in web development and artificial intelligence.
 
 ## Features
 

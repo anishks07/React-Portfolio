@@ -132,7 +132,7 @@ function Contact() {
               }}></i>
               <div>
                 <h3 style={{ fontSize: '1.1rem', fontWeight: '600', color: '#1e293b', marginBottom: '0.3rem' }}>LeetCode</h3>
-                <p><a href="https://leetcode.com/u/AnishKS07/" target="_blank" rel="noopener noreferrer" style={{ color: '#64748b', transition: 'color 0.3s ease' }}>leetcode.com/u/AnishKS07</a></p>
+                <p><a href="https://leetcode.com/u/AnishKS07/" target="_blank" rel="noopener noreferrer" style={{ color: '#64748b', transition: 'color 0.3s ease' }}>leetcode.com/u/AnishSai.K.T07</a></p>
               </div>
             </div>
           </div>

@@ -108,7 +108,7 @@ function Footer() {
           color: 'rgba(255, 255, 255, 0.6)',
           fontSize: '0.9rem',
           letterSpacing: '0.5px'
-        }}>&copy; {new Date().getFullYear()} Anish Sai Konda. All rights reserved.</p>
+        }}>&copy; {new Date().getFullYear()} Anish Sai.K.T. All rights reserved.</p>
       </div>
     </footer>
   );
