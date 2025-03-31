@@ -26,7 +26,7 @@ These instructions will get your copy of the project up and running on your loca
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/[your-username]/react-portfolio  # Replace with your actual repository URL
+git clone git@github.com:anishks07/React-Portfolio.git
 ```
 
 2. Navigate to the project directory:
