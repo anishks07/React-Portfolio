@@ -4,24 +4,28 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/Images/logo.png" id="favicon" />
     <script>
-      // Apply white filter to favicon
+      // Apply white filter to favicon while maintaining aspect ratio
       window.addEventListener('load', function() {
         const favicon = document.getElementById('favicon');
-        const canvas = document.createElement('canvas');
-        const ctx = canvas.getContext('2d');
         const img = new Image();
         
         img.onload = function() {
-          canvas.width = img.width;
-          canvas.height = img.height;
+          const canvas = document.createElement('canvas');
+          // Use square dimensions matching the larger dimension
+          const size = Math.max(img.width, img.height);
+          canvas.width = size;
+          canvas.height = size;
           
-          // Draw image and apply white filter
-          ctx.drawImage(img, 0, 0);
+          const ctx = canvas.getContext('2d');
+          // Center the image
+          const x = (size - img.width) / 2;
+          const y = (size - img.height) / 2;
+          
+          ctx.drawImage(img, x, y);
           ctx.globalCompositeOperation = 'source-in';
           ctx.fillStyle = '#ffffff';
           ctx.fillRect(0, 0, canvas.width, canvas.height);
           
-          // Update favicon
           favicon.href = canvas.toDataURL('image/png');
         };
         
