@@ -1,4 +1,4 @@
-# Anish Sai.K.T's Portfolio
+# Anish's Portfolio
 
 ## Introduction
 
